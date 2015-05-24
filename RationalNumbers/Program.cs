@@ -13,7 +13,7 @@ namespace FirstTask
             if (denominator == 0)
                 throw new ArithmeticException("Denominator must not be 0");
 
-        	this.integerPart = integerPart;
+            this.integerPart = integerPart;
             this.numerator = numerator;
             this.denominator = denominator;
             this.signOptimize();
