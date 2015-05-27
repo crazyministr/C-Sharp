@@ -9,7 +9,6 @@ namespace FifthTask
         private DynamicMethod dyn;
         private ILGenerator gen;
         private Type[] argvTypes = {typeof(int), typeof(int), typeof(int), typeof(int), typeof(int)};
-        // private Func<int, int, int, int, int> Calculation;
         private delegate int Calculation(int a, int b, int c, int d, int ret);
 
         public EmitCalculator(string expr, int a, int b, int c, int d)
